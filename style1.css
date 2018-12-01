@@ -1,0 +1,71 @@
+body{
+  background: lightgreen;
+}
+.maindiv{
+  background:aqua;
+  margin:3%;
+  border-radius: 5%;
+  display: flex;
+}
+.leftdiv{
+  background:pink;
+  margin:0%;
+  border-radius:5%;
+  box-shadow: 3px 3px 3px 3px brown;
+    text-align: center;
+      height:85%;
+      postion:relative;
+      width:25%;
+      margin:0%;
+  }
+  .rightdiv{
+    background:skyblue;
+    margin:0%;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px 3px brown;
+      padding: 2%;
+        height:85%;
+        width:25%;
+      }
+  img{
+    margin:2%;
+    height:20%;
+    width:40%;
+     }
+
+     @media only screen and (min-width:750px) and (max-width:1000px) {
+       body{
+           background:pink;
+         }
+       .maindiv{
+         background:lightgreen;
+            margin:0%;
+       border-radius:3%;
+       display:flux;
+       justify-content: space-between;
+         width:130;
+     }
+     .leftdiv{
+       background:blue;
+       margin:0%;
+     border-radius: 5px;
+     box-shadow: 3px 3px 3px 3px;
+     text-align: center;
+     width:100%;
+    position: relative;
+    margin-top:5%; 
+     }
+     .rightdiv{
+       background:orange;
+       margin:0%;
+     border-radius: 5px;
+     box-shadow: 3px 3px 3px 3px;
+     padding:2%;
+     margin-top: 15%;
+     }
+     img{
+       margin:2%;
+       height:20%;
+       width:40%;
+        }
+     }
