@@ -1,0 +1,40 @@
+{
+  "career":{
+    "info":"i utiliged my skills and knoledge and also improve my skills"
+  },
+  "education":[
+    {
+      "degree":"B.tech(IT)",
+      "institution":"vignan nirula",
+      "YOP":"2020",
+      "percentage":"80%"
+    },
+    {
+      "degree":"intermediate",
+      "institution":"sri chithanya junior college",
+      "YOP":"2016",
+      "percentage":"9.1%"
+    },
+    {
+      "degree":"s.s.c",
+      "institution":"zp highschool",
+      "YOP":"2014",
+      "percentage":"8.3%"
+    },
+  ],
+  "skills":[
+    {
+      "title":"platforms",
+      "content":"windows,Linux"
+    },
+    {
+      "title":"programmimg language",
+      "content":"c,c++,java,python,html,ds"
+    },
+    {
+      "title":"Database",
+      "content":"Mysql,mongodb"
+    }
+  ],
+  "language":"telugu,english,hindhi"
+}

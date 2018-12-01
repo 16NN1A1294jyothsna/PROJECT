@@ -1,0 +1,135 @@
+body{
+  background: gray;
+}
+.maindiv{
+
+}
+
+  .parent{
+    width:100%;
+    background-color: blue;
+    display: flex;
+    /*justify-content:space-around;*/
+
+  }
+table>tr>td{
+  padding:1%;
+}
+a{
+   word-wrap: break-word;
+}
+.child1{
+background-color: :skyblue;
+width:40%;
+text-align: center;
+margin: 1%;
+}
+.child2{
+  background-color: pink;
+  width:60%;
+  margin:1%;
+  padding:1%;
+}
+img{
+  width:60%;
+  height:35%;
+  border-radius: 25px;
+  border:2px solid red;
+}
+h2{
+  color:brown;
+}
+h1{
+  color:orange;
+}
+p{
+  font-size: 20px;
+}
+@media only screen and (max-width:480px){
+  *{
+    font-size: 20px;
+  }
+
+  .parent{
+    width:100%;
+    background-color: pink;
+    display:flex;
+    flex-direction: column;
+  }
+  .child1{
+    background-color: red;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+    /*height:20%;*/
+  }
+  .child2{
+    background-color: yellow;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  img{
+    width:60%;
+    height:35%;
+    border-radius: 25px;
+    border:2px solid blue;
+  }
+  h2{
+    color: brown;
+  }
+  h1{
+    color: bisque;
+  }
+.table-response{
+  overflow: x:scroll;
+  width: 90%;
+  margin: 1% auto;
+  }
+}
+@media only screen and (min=width:481px) and (max=width:769px){
+  *{
+    font-size: 20px;
+  }
+  .parent{
+    width:100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+  }
+  .child1{
+    background-color:lightyellow;
+    text-align: center;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  .child2{
+    background-color:purple;
+    width: 90%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  img{
+    width:60%;
+    height:35%;
+    border-radius: 25px;
+    border:2px solid blue;
+    }
+  h2{
+    color: indigo;
+  }
+  h1{
+    color: skyblue;
+  }
+.table-response{
+  overflow: x:scroll;
+  width: 90%;
+  margin: 1% auto;
+    }
+  }
